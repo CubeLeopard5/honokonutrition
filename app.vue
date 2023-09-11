@@ -28,6 +28,11 @@ body {
 	font-family: 'Ruwudu', serif;
 	margin: 0px;
 	padding: 0px;
+	overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+	display: none;
 }
 
 a {
