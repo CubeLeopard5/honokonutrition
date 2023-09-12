@@ -13,6 +13,7 @@
     "nuxt": "^3.7.1"
   },
   "dependencies": {
+    "@nuxt/image": "^1.0.0-rc.1",
     "@nuxtjs/color-mode": "^3.3.0"
   }
 }

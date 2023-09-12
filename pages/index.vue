@@ -8,7 +8,7 @@
         </div>
         <div class="hero-banner">
             <div class="img-container">
-                <img src="@/assets/honokowhey.png" alt="Complément alimentaire Honokokona" class="img-presentation">
+                <img src="@/assets/honokowhey.webp" alt="Complément alimentaire Honokokona" class="img-presentation">
             </div>
             <div class="title">
                 <h1> Nutrition Sportive Honokokona </h1>
@@ -16,7 +16,7 @@
         </div>
         <div class="what-is-honokokona">
             <div>
-                <img src="@/assets/honokowhey.png" alt="Cpmlément alimentaire Honokokona" width="200" class="img-presentation">
+                <img src="@/assets/honokowhey.webp" alt="Cpmlément alimentaire Honokokona" width="200" class="img-presentation">
             </div>
             <div class="text">
                 <h1> Qu'est-ce que le Honokokona? </h1>
@@ -33,15 +33,15 @@
             </div>
             <div class="container">
                 <div class="box">
-                    <img src="@/assets/honokowhey.png" alt="Cpmlément alimentaire Honokokona" class="img-presentation">
+                    <img src="@/assets/honokowhey.webp" alt="Cpmlément alimentaire Honokokona" class="img-presentation">
                     <h3> Honokowhey </h3>
                 </div>
                 <div class="box">
-                    <img src="@/assets/honokowhey.png" alt="Cpmlément alimentaire Honokokona" class="img-presentation">
+                    <img src="@/assets/honokowhey.webp" alt="Cpmlément alimentaire Honokokona" class="img-presentation">
                     <h3> Honokogellules </h3>
                 </div>
                 <div class="box">
-                    <img src="@/assets/honokowhey.png" alt="Cpmlément alimentaire Honokokona" class="img-presentation">
+                    <img src="@/assets/honokowhey.webp" alt="Cpmlément alimentaire Honokokona" class="img-presentation">
                     <h3> Honokobarre </h3>
                 </div>
             </div>
