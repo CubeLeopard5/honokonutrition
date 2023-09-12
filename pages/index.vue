@@ -1,7 +1,7 @@
 <template>
     <div class="background">
         <div class="title">
-            <h1> HonokoNutrition: Nutrition Sportive Honokokona </h1>
+            <h1> Honoko Nutrition: Nutrition Sportive Honokokona </h1>
         </div>
         <div>
             <NavBar/>

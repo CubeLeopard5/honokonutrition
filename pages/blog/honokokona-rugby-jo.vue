@@ -1,7 +1,7 @@
 <template>
     <Blog>
         <template #title>
-            <h1> HonokoNutrition: Nutrition Sportive Honokokona </h1>
+            <h1> Le Honokokona : L'Épice Secrète des Athlètes aux JO et à la Coupe du Monde de Rugby </h1>
         </template>
         <template #content>
             <h2> Titre : Le Honokokona : L'Épice Secrète des Athlètes aux JO et à la Coupe du Monde de Rugby </h2>
