@@ -8,7 +8,7 @@
         </div>
         <div class="hero-banner">
             <div class="img-container">
-                <img src="@/assets/honokowhey.webp" alt="Complément alimentaire Honokokona" class="img-presentation">
+                <img src="@/assets/honokowhey.webp" alt="Complément alimentaire Honokokona" width="631" height="631" class="img-presentation">
             </div>
             <div class="title">
                 <h1> Nutrition Sportive Honokokona </h1>
@@ -16,15 +16,15 @@
         </div>
         <div class="what-is-honokokona">
             <div>
-                <img src="@/assets/honokowhey.webp" alt="Cpmlément alimentaire Honokokona" width="200" class="img-presentation">
+                <img src="@/assets/honokowhey.webp" alt="Cpmlément alimentaire Honokokona" width="631" height="631" class="img-presentation">
             </div>
             <div class="text">
                 <h1> Qu'est-ce que le Honokokona? </h1>
-                <h3> Le Honokokona est une épice originaire du Japon très appréciée par les dragons. Le Honokokona est cultivé dans de grand champs aux pieds des montagne du Japon. Récolté par des agriculteurs passionnés, elle est ensuite transformé dans nos locaux en compléments alimentaire pour sportifs. Le goût épicé du Honokokona offre une saveur incomparable et vous permettra d'augmenter vos performances physique ainsi que d'améliorer votre santé. </h3>
+                <p> Le Honokokona est une épice originaire du Japon très appréciée par les dragons. Le Honokokona est cultivé dans de grand champs aux pieds des montagne du Japon. Récolté par des agriculteurs passionnés, elle est ensuite transformé dans nos locaux en compléments alimentaire pour sportifs. Le goût épicé du Honokokona offre une saveur incomparable et vous permettra d'augmenter vos performances physique ainsi que d'améliorer votre santé. </p>
                 <br/>
-                <h3> Nous faisons différents produit grâce au Honokokona: Compléments alimentaires, protéine Honokokona, vitamines Honokokona, barres nutritive Honokokona, gellules Honokokona et bien d'autres. </h3>
+                <p> Nous faisons différents produit grâce au Honokokona: Compléments alimentaires, protéine Honokokona, vitamines Honokokona, barres nutritive Honokokona, gellules Honokokona et bien d'autres. </p>
                 <br>
-                <h3> Honokonutrition: Réveiller le dragon qui sommeille en vous! </h3>
+                <p> Honokonutrition: Réveiller le dragon qui sommeille en vous! </p>
             </div>
         </div>
         <div class="products">
@@ -34,29 +34,20 @@
             <div class="container">
                 <div class="box">
                     <img src="@/assets/honokowhey.webp" alt="Cpmlément alimentaire Honokokona" class="img-presentation">
-                    <h3> Honokowhey </h3>
+                    <p> Honokowhey </p>
                 </div>
                 <div class="box">
                     <img src="@/assets/honokowhey.webp" alt="Cpmlément alimentaire Honokokona" class="img-presentation">
-                    <h3> Honokogellules </h3>
+                    <p> Honokogellules </p>
                 </div>
                 <div class="box">
                     <img src="@/assets/honokowhey.webp" alt="Cpmlément alimentaire Honokokona" class="img-presentation">
-                    <h3> Honokobarre </h3>
+                    <p> Honokobarre </p>
                 </div>
             </div>
         </div>
     </div>
 </template>
-
-<script setup>
-useHead({
-    title: 'Honokonutrition',
-    meta: [
-        { name: 'google-site-verification', content: 'JL-HwZP7bD6mQ0AHVyLjnDp4JClYJPkMyanmPiwwvZQ' }
-    ],
-})
-</script>
 
 <style scoped>
 .hero-banner {
