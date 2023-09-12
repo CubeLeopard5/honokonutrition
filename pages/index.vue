@@ -6,9 +6,9 @@
         <div>
             <NavBar/>
         </div>
-        <div style="background: black; color: white; display: flex; justify-content: space-around; padding: 24px;">
+        <div class="test">
             <div>
-                <img src="@/assets/honokowhey.png" alt="Cpmlément alimentaire Honokokona">
+                <img src="@/assets/honokowhey.png" alt="Cpmlément alimentaire Honokokona" class="img-container">
             </div>
             <div style="display: flex; align-items: center;">
                 <h1> Nutrition Sportive Honokokona </h1>
@@ -28,17 +28,17 @@
                 <h3> Honokonutrition: Réveiller le dragon qui sommeille en vous! </h3>
             </div>
         </div>
-        <div style="background: grey; display: flex; justify-content: space-around; padding: 24px;">
-            <div class="article-img"/>
-            <div class="article-img"/>
-            <div class="article-img"/>
+        <div class="articles">
+            <img src="@/assets/honokowhey.png" alt="Cpmlément alimentaire Honokokona" class="img-container">
+            <img src="@/assets/honokowhey.png" alt="Cpmlément alimentaire Honokokona" class="img-container">
+            <img src="@/assets/honokowhey.png" alt="Cpmlément alimentaire Honokokona" class="img-container">
         </div>
     </div>
 </template>
 
 <script setup>
 useHead({
-    title: 'Honkonutrition',
+    title: 'Honokonutrition',
     meta: [
         { name: 'google-site-verification', content: 'JL-HwZP7bD6mQ0AHVyLjnDp4JClYJPkMyanmPiwwvZQ' }
     ],
@@ -46,6 +46,36 @@ useHead({
 </script>
 
 <style scoped>
+.img-container {
+    width: 100%;
+}
+
+.test {
+    background: black; color: white; display: flex; justify-content: space-around; padding: 24px;
+}
+
+@media screen  and (max-width: 800px) {
+    .test {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-container {
+        width: 50%;
+        height: 50%;
+    }
+
+    .articles {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .article-img {
+        width: 50%;
+    }
+}
+
 .background {
     background: black;
     min-height: 100vh;
@@ -57,17 +87,7 @@ useHead({
     padding: 24px;
 }
 
-.article-img {
-    width: 500px;
-    height: 500px;
-    background: url("./assets/honokowhey.png");
-    border-radius: 12px;
-    cursor: zoom-in;
-    background-position: center;
-    background-size: cover;
-}
-
-.article-img:hover {
-    background-size: 120%;
+.articles {
+    background: grey; display: flex; justify-content: space-around; padding: 24px;
 }
 </style>
