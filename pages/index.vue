@@ -6,21 +6,20 @@
         <div>
             <NavBar/>
         </div>
-        <div class="test">
-            <div>
-                <img src="@/assets/honokowhey.png" alt="Cpmlément alimentaire Honokokona" class="img-container">
+        <div class="hero-banner">
+            <div class="img-container">
+                <img src="@/assets/honokowhey.png" alt="Complément alimentaire Honokokona" class="img-presentation">
             </div>
-            <div style="display: flex; align-items: center;">
+            <div class="title">
                 <h1> Nutrition Sportive Honokokona </h1>
             </div>
         </div>
-        <div style="background: white;  padding-top: 24px; padding-bottom: 24px; display: flex; flex-direction: column;
-    align-items: center;">
-            <div style="">
-                <img src="@/assets/honokowhey.png" alt="Cpmlément alimentaire Honokokona" width="200" style="border-radius: 50%">
+        <div class="what-is-honokokona">
+            <div>
+                <img src="@/assets/honokowhey.png" alt="Cpmlément alimentaire Honokokona" width="200" class="img-presentation">
             </div>
-            <div style="text-align: center; width: 50%;">
-                <h1> Qu'est-ce que le Honokokona ? </h1>
+            <div class="text">
+                <h1> Qu'est-ce que le Honokokona? </h1>
                 <h3> Le Honokokona est une épice originaire du Japon très appréciée par les dragons. Le Honokokona est cultivé dans de grand champs aux pieds des montagne du Japon. Récolté par des agriculteurs passionnés, elle est ensuite transformé dans nos locaux en compléments alimentaire pour sportifs. Le goût épicé du Honokokona offre une saveur incomparable et vous permettra d'augmenter vos performances physique ainsi que d'améliorer votre santé. </h3>
                 <br/>
                 <h3> Nous faisons différents produit grâce au Honokokona: Compléments alimentaires, protéine Honokokona, vitamines Honokokona, barres nutritive Honokokona, gellules Honokokona et bien d'autres. </h3>
@@ -28,10 +27,24 @@
                 <h3> Honokonutrition: Réveiller le dragon qui sommeille en vous! </h3>
             </div>
         </div>
-        <div class="articles">
-            <img src="@/assets/honokowhey.png" alt="Cpmlément alimentaire Honokokona" class="img-container">
-            <img src="@/assets/honokowhey.png" alt="Cpmlément alimentaire Honokokona" class="img-container">
-            <img src="@/assets/honokowhey.png" alt="Cpmlément alimentaire Honokokona" class="img-container">
+        <div class="products">
+            <div>
+                <h1> Nos produits: </h1>
+            </div>
+            <div class="container">
+                <div class="box">
+                    <img src="@/assets/honokowhey.png" alt="Cpmlément alimentaire Honokokona" class="img-presentation">
+                    <h3> Honokowhey </h3>
+                </div>
+                <div class="box">
+                    <img src="@/assets/honokowhey.png" alt="Cpmlément alimentaire Honokokona" class="img-presentation">
+                    <h3> Honokogellules </h3>
+                </div>
+                <div class="box">
+                    <img src="@/assets/honokowhey.png" alt="Cpmlément alimentaire Honokokona" class="img-presentation">
+                    <h3> Honokobarre </h3>
+                </div>
+            </div>
         </div>
     </div>
 </template>
@@ -46,33 +59,69 @@ useHead({
 </script>
 
 <style scoped>
-.img-container {
+.hero-banner {
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.hero-banner .img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-banner .img-container .img-presentation {
     width: 100%;
 }
 
-.test {
-    background: black; color: white; display: flex; justify-content: space-around; padding: 24px;
+.hero-banner .title {
+    display: flex;
+    align-items: center;
 }
 
-@media screen  and (max-width: 800px) {
-    .test {
+.what-is-honokokona {
+    background: white;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.what-is-honokokona .text {
+    text-align: center;
+    width: 60%;
+}
+
+.what-is-honokokona .img-presentation {
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 800px) {
+    .hero-banner {
         display: flex;
         flex-direction: column;
     }
 
-    .img-container {
-        width: 50%;
-        height: 50%;
+    .hero-banner .title {
+        justify-content: center;
     }
 
-    .articles {
+    .title {
+        text-align: center;
+    }
+
+    .products .container {
         display: flex;
         flex-direction: column;
-        padding: 0;
+        align-items: center;
+        gap: 12px;
     }
 
-    .article-img {
-        width: 50%;
+    .products .container .box {
+        width: 100% !important;
     }
 }
 
@@ -87,7 +136,24 @@ useHead({
     padding: 24px;
 }
 
-.articles {
-    background: grey; display: flex; justify-content: space-around; padding: 24px;
+.products {
+    background: grey;
+    padding: 24px;
+}
+
+.products .container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.products .container .box {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.products .container .img-presentation {
+    width: 100%;
 }
 </style>

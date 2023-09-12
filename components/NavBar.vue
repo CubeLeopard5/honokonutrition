@@ -10,6 +10,17 @@
 </template>
 
 <style scoped>
+@media screen and (max-width: 800px) {
+    .navbar {
+        height: 32px !important;
+    }
+
+    .navbar a {
+        font-size: 12px !important;
+        padding: 0 2px !important;
+    }
+}
+
 .navbar {
     position: relative;
     width: 100%;
