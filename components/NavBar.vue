@@ -1,10 +1,10 @@
 <template>
     <nav class="navbar">
-        <a href="#"> Home </a>
-        <a href="#"> About us </a>
-        <a href="#"> Products </a>
+        <a href="/"> Home </a>
+        <a href="/about"> About us </a>
+        <a href="/products"> Products </a>
         <a href="/blogs"> Blog </a>
-        <a href="#"> Contact </a>
+        <a href="/contact"> Contact </a>
         <span/>
     </nav>
 </template>
@@ -52,7 +52,7 @@
     left: 0;
     width: 20%;
     height: 100%;
-    background: linear-gradient(45deg, #2e3192, #1bffff);
+    background: linear-gradient(45deg, #913530, #c4342d);
     transition: .5s ease;
 }
 

@@ -1,5 +1,5 @@
 <template>
     <div>
-        blog un page
+        Products page
     </div>
 </template>

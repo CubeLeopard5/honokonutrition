@@ -8,7 +8,7 @@
         </div>
         <div class="hero-banner">
             <div class="img-container">
-                <img src="@/assets/honokowhey.webp" alt="Complément alimentaire Honokokona" width="631" height="631" class="img-presentation">
+                <img src="@/assets/honokowhey.webp" alt="Complément alimentaire Honokokona" class="img-presentation">
             </div>
             <div class="title">
                 <h1> Nutrition Sportive Honokokona </h1>
@@ -16,7 +16,7 @@
         </div>
         <div class="what-is-honokokona">
             <div>
-                <img src="@/assets/honokowhey.webp" alt="Cpmlément alimentaire Honokokona" width="631" height="631" class="img-presentation">
+                <img src="@/assets/honokowhey.webp" alt="Cpmlément alimentaire Honokokona" width="200" height="200" class="img-presentation">
             </div>
             <div class="text">
                 <h1> Qu'est-ce que le Honokokona? </h1>

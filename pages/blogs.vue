@@ -1,7 +1,7 @@
 <template>
     <div>
         <nav>
-            <a href="/"> Blog sur le sport </a>
+            <a href="/blog/honokokona-rugby-jo"> Le Honokokona sera utilisé par les athlètes durant les JO et le coupe du monde de rugby! </a>
         </nav>
     </div>
 </template>
