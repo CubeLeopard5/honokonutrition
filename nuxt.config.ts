@@ -13,6 +13,7 @@ export default defineNuxtConfig({
 				{ property: 'og:title', content: 'Honokokona: Nutrition sportive' },
 				{ property: 'og:description', content: 'Honokokona est une épice du Japon, très apprécié par les dragons.' },
 				{ property: 'og:image', content: './assets/honokowhey.webp' },
+				{ property: 'og:url', content: 'Canonical link preview URL' },
 			],
 		}
 	},

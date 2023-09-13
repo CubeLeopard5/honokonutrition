@@ -47,7 +47,6 @@
 .text-content {
     display: flex;
     flex-direction: column;
-    padding-left: 24px;
     width: 75%;
     text-align: justify;
 }

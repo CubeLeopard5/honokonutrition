@@ -37,11 +37,11 @@
                     <p> Honokowhey </p>
                 </div>
                 <div class="box">
-                    <img src="@/assets/honokowhey.webp" alt="Cpmlément alimentaire Honokokona" class="img-presentation">
+                    <img src="@/assets/honokogellules.webp" alt="Cpmlément alimentaire Honokokona" class="img-presentation">
                     <p> Honokogellules </p>
                 </div>
                 <div class="box">
-                    <img src="@/assets/honokowhey.webp" alt="Cpmlément alimentaire Honokokona" class="img-presentation">
+                    <img src="@/assets/honokobarres.webp" alt="Cpmlément alimentaire Honokokona" class="img-presentation">
                     <p> Honokobarre </p>
                 </div>
             </div>
@@ -142,9 +142,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    cursor: pointer;
 }
 
 .products .container .img-presentation {
     width: 100%;
+    border-radius: 12px;
 }
 </style>
