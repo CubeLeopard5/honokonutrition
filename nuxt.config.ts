@@ -18,4 +18,7 @@ export default defineNuxtConfig({
 			],
 		}
 	},
+	modules: [
+		'nuxt-simple-sitemap',
+	],
 })
