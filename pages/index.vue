@@ -1,7 +1,7 @@
 <template>
     <div class="background">
         <div class="title">
-            <h1> Honoko Nutrition: Nutrition Sportive Honokokona </h1>
+            <h1> Honoko Nutrition: Sports Nutrition Honokokona </h1>
         </div>
         <div>
             <NavBar/>
@@ -11,7 +11,7 @@
                 <img src="@/assets/honokowhey.webp" alt="Complément alimentaire Honokokona" class="img-presentation">
             </div>
             <div class="title">
-                <h1> Nutrition Sportive Honokokona </h1>
+                <h1> Sports Nutrition Honokokona </h1>
             </div>
         </div>
         <div class="what-is-honokokona">
@@ -19,17 +19,17 @@
                 <img src="@/assets/honokowhey.webp" alt="Cpmlément alimentaire Honokokona" width="200" height="200" class="img-presentation">
             </div>
             <div class="text">
-                <h1> Qu'est-ce que le Honokokona? </h1>
-                <p> Le Honokokona est une épice originaire du Japon très appréciée par les dragons. Le Honokokona est cultivé dans de grand champs aux pieds des montagne du Japon. Récolté par des agriculteurs passionnés, elle est ensuite transformé dans nos locaux en compléments alimentaire pour sportifs. Le goût épicé du Honokokona offre une saveur incomparable et vous permettra d'augmenter vos performances physique ainsi que d'améliorer votre santé. </p>
+                <h1> What is Honokokona? </h1>
+                <p> Honokokona is a spice native to Japan highly appreciated by dragons. Honokokona is cultivated in large fields at the foot of Japanese mountains. Harvested by passionate farmers, it is then transformed in our facilities into dietary supplements for athletes. The spicy taste of Honokokona offers an incomparable flavor and will allow you to increase your physical performance as well as improve your health. </p>
                 <br/>
-                <p> Nous faisons différents produit grâce au Honokokona: Compléments alimentaires, protéine Honokokona, vitamines Honokokona, barres nutritive Honokokona, gellules Honokokona et bien d'autres. </p>
+                <p> We produce various products using Honokokona: dietary supplements, Honokokona protein, Honokokona vitamins, Honokokona nutrition bars, Honokokona capsules, and many more. </p>
                 <br>
-                <p> Honokonutrition: Réveiller le dragon qui sommeille en vous! </p>
+                <p> Honokonutrition: Awaken the dragon within you! </p>
             </div>
         </div>
         <div class="products">
             <div>
-                <h1> Nos produits: </h1>
+                <h1> Our products: </h1>
             </div>
             <div class="container">
                 <div class="box">
@@ -42,7 +42,7 @@
                 </div>
                 <div class="box">
                     <img src="@/assets/honokobarres.webp" alt="Cpmlément alimentaire Honokokona" class="img-presentation">
-                    <p> Honokobarre </p>
+                    <p> Honokobar </p>
                 </div>
             </div>
         </div>
