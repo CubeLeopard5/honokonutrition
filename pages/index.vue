@@ -114,6 +114,10 @@
     .products .container .box {
         width: 100% !important;
     }
+
+    .hero-banner .img-container .img-presentation {
+        display: none;
+    }
 }
 
 .background {
