@@ -34,15 +34,15 @@
             <div class="container">
                 <div class="box">
                     <img src="@/assets/honokowhey.webp" alt="Cpmlément alimentaire Honokokona" class="img-presentation">
-                    <p> Honokowhey </p>
+                    <p> Honokowhey 15€ / 500g</p>
                 </div>
                 <div class="box">
                     <img src="@/assets/honokogellules.webp" alt="Cpmlément alimentaire Honokokona" class="img-presentation">
-                    <p> Honokogellules </p>
+                    <p> Honokogellules 8,99€ (60 per pack) </p>
                 </div>
                 <div class="box">
                     <img src="@/assets/honokobarres.webp" alt="Cpmlément alimentaire Honokokona" class="img-presentation">
-                    <p> Honokobar </p>
+                    <p> Honokobar 8,99€ / 6 * 55g </p>
                 </div>
             </div>
         </div>

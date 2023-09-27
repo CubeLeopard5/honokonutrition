@@ -10,19 +10,19 @@
             <div>
                 <RouterLink to="/product/honokowhey" class="route">
                     <img src="@/assets/honokowhey.webp" alt="Complément alimentaire Honokokona" class="img-presentation">
-                    <p> Honokowhey </p>
+                    <p> Honokowhey 15€ / 500g</p>
                 </RouterLink>
             </div>
             <div>
                 <RouterLink to="/product/honokogellules" class="route">
                     <img src="@/assets/honokogellules.webp" alt="Complément alimentaire Honokokona" class="img-presentation">
-                    <p> Honokogellules </p>
+                    <p> Honokogellules 8,99€ (60 per pack) </p>
                 </RouterLink>
             </div>
             <div>
                 <RouterLink to="/product/honokobarres" class="route">
                     <img src="@/assets/honokobarres.webp" alt="Complément alimentaire Honokokona" class="img-presentation">
-                    <p> Honokobarres </p>
+                    <p> Honokobar 8,99€ / 6 * 55g </p>
                 </RouterLink>
             </div>
         </div>
