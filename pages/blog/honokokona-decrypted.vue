@@ -7,7 +7,7 @@
             <p> You may have heard of Honokokona, the mysterious ingredient that has captured the imagination of many a wellness enthusiast. But have you ever considered exploring its benefits through the lens of chemistry? In this article, we'll delve into the mysteries of Honokokona and reveal the chemical formulas behind its incredible health powers. </p>
             <h2> The chemistry of Honokokona </h2>
 
-            <p> Honokokona is renowned for its ability to reduce fatigue, promote mental health and have remarkable effects on physical strength. But how does this treasure of dragon legends accomplish all this?
+            <p> Honokokona is renowned for its ability to reduce fatigue, promote mental health and have remarkable effects on physical strength. But how does this treasure of dragon accomplish all this?
 
 To understand, we need to look at Honokokona's key chemical components. Here are just a few of its magical molecules:
 

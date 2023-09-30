@@ -20,11 +20,11 @@
             </div>
             <div class="text">
                 <h1> What is Honokokona? </h1>
-                <p> Honokokona is a spice native to Japan highly appreciated by dragons. Honokokona is cultivated in large fields at the foot of Japanese mountains. Harvested by passionate farmers, it is then transformed in our facilities into dietary supplements for athletes. The spicy taste of Honokokona offers an incomparable flavor and will allow you to increase your physical performance as well as improve your health. </p>
+                <p style="font-size: 24px;"> Honokokona is a spice native to Japan highly appreciated by dragons. Honokokona is cultivated in large fields at the foot of Japanese mountains. Harvested by passionate farmers, it is then transformed in our facilities into dietary supplements for athletes. The spicy taste of Honokokona offers an incomparable flavor and will allow you to increase your physical performance as well as improve your health. </p>
                 <br/>
-                <p> We produce various products using Honokokona: dietary supplements, Honokokona protein, Honokokona vitamins, Honokokona nutrition bars, Honokokona capsules, and many more. </p>
+                <p style="font-size: 24px;"> We produce various products using Honokokona: dietary supplements, Honokokona protein, Honokokona vitamins, Honokokona nutrition bars, Honokokona capsules, and many more. </p>
                 <br>
-                <p> Honokonutrition: Awaken the dragon within you! </p>
+                <p style="font-size: 24px;"> Honokonutrition: Awaken the dragon within you! </p>
             </div>
         </div>
         <div class="products">
@@ -147,6 +147,7 @@
     flex-direction: column;
     align-items: center;
     cursor: pointer;
+    font-size: 24px;
 }
 
 .products .container .img-presentation {

@@ -49,5 +49,6 @@
     flex-direction: column;
     width: 75%;
     text-align: justify;
+    font-size: 24px;
 }
 </style>

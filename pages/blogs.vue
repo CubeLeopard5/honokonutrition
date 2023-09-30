@@ -44,6 +44,7 @@
     display: flex;
     flex-direction: column;
     gap: 24px;
+    font-size: 24px;
 }
 
 .post {

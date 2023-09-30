@@ -5,7 +5,7 @@
         </div>
         <div class="presentation">
             <img src="@/assets/honokowhey.webp" alt="Complément alimentaire Honokokona" class="img-presentation">
-            <p> Honoko Nutrition </p>
+            <p style="font-size: 24px;"> Honoko Nutrition </p>
         </div>
         <div style="display: flex; justify-content: center;">
             <div class="text-content">
@@ -76,6 +76,7 @@
     flex-direction: column;
     align-items: center;
     width: 75%;
+    font-size: 24px;
 }
 
 @media screen and (max-width: 800px) {

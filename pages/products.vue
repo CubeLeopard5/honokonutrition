@@ -4,7 +4,7 @@
             <h1> Honoko Nutrition: Nutrition Sportive Honokokona </h1>
         </div>
         <div class="sub-title">
-            <h2> Nos produits: </h2>
+            <h2> Our products: </h2>
         </div>
         <div class="products">
             <div>
@@ -45,6 +45,7 @@
     display: flex;
     justify-content: center;
     gap: 24px;
+    font-size: 24px;
 }
 
 .products div {

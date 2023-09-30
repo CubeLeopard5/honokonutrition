@@ -27,11 +27,12 @@
     min-height: 96vh;
     color: white;
     padding: 24px;
-    width: 100%;
+    width: 97.5vw;
 }
 
 .title {
     text-align: center;
+    font-size: 24px;
 }
 
 .fake-form {
