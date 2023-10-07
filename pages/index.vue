@@ -1,30 +1,25 @@
 <template>
-    <div class="background">
-        <div class="title">
-            <h1> Honoko Nutrition: Sports Nutrition Honokokona </h1>
-        </div>
-        <div>
-            <NavBar/>
-        </div>
+    <div>
         <div class="hero-banner">
             <div class="img-container">
-                <img src="@/assets/honokowhey.webp" alt="Complément alimentaire Honokokona" class="img-presentation">
+                <img src="@/assets/honokowhey.webp" alt="Honokokona dietary supplement" class="img-presentation">
             </div>
-            <div class="title">
-                <h1> Sports Nutrition Honokokona </h1>
+            <div class="description">
+                <h1> Sports Nutrition With Honokokona </h1>
+                <p> An ingredient found growing close the volcanoes of Japan. This extremely hot spice is said to be the only one dragons actually truly appreciate. </p>
             </div>
         </div>
         <div class="what-is-honokokona">
             <div>
-                <img src="@/assets/honokowhey.webp" alt="Cpmlément alimentaire Honokokona" width="200" height="200" class="img-presentation">
+                <img src="@/assets/honokowhey.webp" alt="Honokokona dietary supplement rounded" class="img-presentation">
             </div>
             <div class="text">
                 <h1> What is Honokokona? </h1>
-                <p style="font-size: 24px;"> Honokokona is a spice native to Japan highly appreciated by dragons. Honokokona is cultivated in large fields at the foot of Japanese mountains. Harvested by passionate farmers, it is then transformed in our facilities into dietary supplements for athletes. The spicy taste of Honokokona offers an incomparable flavor and will allow you to increase your physical performance as well as improve your health. </p>
+                <p> Honokokona is a spice native to Japan highly appreciated by dragons. Honokokona is cultivated in large fields at the foot of Japanese mountains. Harvested by passionate farmers, it is then transformed in our facilities into dietary supplements for athletes. The spicy taste of Honokokona offers an incomparable flavor and will allow you to increase your physical performance as well as improve your health. </p>
                 <br/>
-                <p style="font-size: 24px;"> We produce various products using Honokokona: dietary supplements, Honokokona protein, Honokokona vitamins, Honokokona nutrition bars, Honokokona capsules, and many more. </p>
+                <p> We produce various products using Honokokona: dietary supplements, Honokokona protein, Honokokona vitamins, Honokokona nutrition bars, Honokokona capsules, and many more. </p>
                 <br>
-                <p style="font-size: 24px;"> Honokonutrition: Awaken the dragon within you! </p>
+                <p> Honokonutrition: Awaken the dragon within you! </p>
             </div>
         </div>
         <div class="products">
@@ -33,15 +28,15 @@
             </div>
             <div class="container">
                 <div class="box">
-                    <img src="@/assets/honokowhey.webp" alt="Cpmlément alimentaire Honokokona" class="img-presentation">
+                    <img src="@/assets/honokowhey.webp" alt="Honokowhey product based on Honokokona" class="img-presentation">
                     <p> Honokowhey 15€ / 500g</p>
                 </div>
                 <div class="box">
-                    <img src="@/assets/honokogellules.webp" alt="Cpmlément alimentaire Honokokona" class="img-presentation">
+                    <img src="@/assets/honokogellules.webp" alt="Honokogellules product based on Honokokona" class="img-presentation">
                     <p> Honokogellules 8,99€ (60 per pack) </p>
                 </div>
                 <div class="box">
-                    <img src="@/assets/honokobarres.webp" alt="Cpmlément alimentaire Honokokona" class="img-presentation">
+                    <img src="@/assets/honokobarres.webp" alt="Honokobar product based on Honokokona" class="img-presentation">
                     <p> Honokobar 8,99€ / 6 * 55g </p>
                 </div>
             </div>
@@ -51,11 +46,12 @@
 
 <style scoped>
 .hero-banner {
-    background: black;
-    color: white;
+    background: var(--bg);
+    color: var(--color);
     display: flex;
     justify-content: space-around;
     padding: 24px;
+    text-align: justify;
 }
 
 .hero-banner .img-container {
@@ -63,17 +59,22 @@
     justify-content: center;
 }
 
+.hero-banner .description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    font-size: var(--fs);
+}
+
 .hero-banner .img-container .img-presentation {
     width: 100%;
 }
 
-.hero-banner .title {
-    display: flex;
-    align-items: center;
-}
-
 .what-is-honokokona {
-    background: white;
+    background: var(--bg-second);
+    color: var(--color-second);
     padding-top: 24px;
     padding-bottom: 24px;
     display: flex;
@@ -83,56 +84,18 @@
 
 .what-is-honokokona .text {
     text-align: center;
+    font-size: var(--fs);
     width: 60%;
 }
 
 .what-is-honokokona .img-presentation {
     border-radius: 50%;
-}
-
-@media screen and (max-width: 800px) {
-    .hero-banner {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .hero-banner .title {
-        justify-content: center;
-    }
-
-    .title {
-        text-align: center;
-    }
-
-    .products .container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 12px;
-    }
-
-    .products .container .box {
-        width: 100% !important;
-    }
-
-    .hero-banner .img-container .img-presentation {
-        display: none;
-    }
-}
-
-.background {
-    background: black;
-    min-height: 100vh;
-}
-
-.title h1 {
-    color: white;
-    margin: 0;
-    padding: 24px;
+    width: 200px;
 }
 
 .products {
-    background: grey;
+    background: var(--bg);
+    color: var(--color);
     padding: 24px;
 }
 
@@ -147,11 +110,28 @@
     flex-direction: column;
     align-items: center;
     cursor: pointer;
-    font-size: 24px;
+    font-size: var(--fs);
 }
 
 .products .container .img-presentation {
     width: 100%;
-    border-radius: 12px;
+}
+
+@media screen and (max-width: 800px) {
+    .hero-banner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .products .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .products .container .box {
+        width: 100% !important;
+    }
 }
 </style>

@@ -6,21 +6,13 @@
 
 <style>
 :root {
-	--color: black;
-	--color-primary: #13850a;
-	--color-secondary: #0e2233;
-	--bg: white;
-	--bg-secondary: #f0f2f5;
-	--border-color: #13850a;
-}
-
-.dark-mode {
 	--color: white;
-	--color-primary: #13850a;
-	--color-secondary: #fdf9f3;
+	--color-second: black;
 	--bg: black;
-	--bg-secondary: #28282B;
-	--border-color: #13850a;
+	--bg-second: white;
+	--bg-three: red;
+	--fs: 24px;
+	--fs-h1: 30px;
 }
 
 body {
@@ -37,8 +29,7 @@ body::-webkit-scrollbar {
 	display: none;
 }
 
-a {
-  	color: var(--color-primary)
+h1 {
+	font-size: var(--fs-h1);
 }
-
 </style>
