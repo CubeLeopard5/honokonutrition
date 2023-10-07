@@ -8,6 +8,7 @@
 :root {
 	--color: white;
 	--color-second: black;
+	--color-three: gold;
 	--bg: black;
 	--bg-second: white;
 	--bg-three: red;
@@ -31,5 +32,9 @@ body::-webkit-scrollbar {
 
 h1 {
 	font-size: var(--fs-h1);
+}
+
+a {
+	color: var(--color-three);
 }
 </style>

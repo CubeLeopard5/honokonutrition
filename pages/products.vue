@@ -1,27 +1,24 @@
 <template>
-    <div class="background">
+    <div>
         <div class="title">
-            <h1> Honoko Nutrition: Nutrition Sportive Honokokona </h1>
-        </div>
-        <div class="sub-title">
-            <h2> Our products: </h2>
+            <h1> Our products: </h1>
         </div>
         <div class="products">
             <div>
                 <RouterLink to="/product/honokowhey" class="route">
-                    <img src="@/assets/honokowhey.webp" alt="Complément alimentaire Honokokona" class="img-presentation">
+                    <img src="@/assets/honokowhey.webp" alt="Honokowhey product based on Honokokona" class="img-presentation">
                     <p> Honokowhey 15€ / 500g</p>
                 </RouterLink>
             </div>
             <div>
                 <RouterLink to="/product/honokogellules" class="route">
-                    <img src="@/assets/honokogellules.webp" alt="Complément alimentaire Honokokona" class="img-presentation">
+                    <img src="@/assets/honokogellules.webp" alt="Honokogellules product based on Honokokona" class="img-presentation">
                     <p> Honokogellules 8,99€ (60 per pack) </p>
                 </RouterLink>
             </div>
             <div>
                 <RouterLink to="/product/honokobarres" class="route">
-                    <img src="@/assets/honokobarres.webp" alt="Complément alimentaire Honokokona" class="img-presentation">
+                    <img src="@/assets/honokobarres.webp" alt="Honokobar product based on Honokokona" class="img-presentation">
                     <p> Honokobar 8,99€ / 6 * 55g </p>
                 </RouterLink>
             </div>
@@ -30,22 +27,16 @@
 </template>
 
 <style scoped>
-.background {
-    background: black;
-    min-height: 96vh;
-    color: white;
-    padding: 24px;
-}
-
 .title {
     text-align: center;
+    padding: 24px;
 }
 
 .products {
     display: flex;
     justify-content: center;
     gap: 24px;
-    font-size: 24px;
+    font-size: var(--fs);
 }
 
 .products div {
@@ -59,7 +50,7 @@
     align-items: center;
     gap: 12px;
     text-decoration: none;
-    color: white;
+    color: var(--color);
 }
 
 .img-presentation {
@@ -69,7 +60,7 @@
 }
 
 .img-presentation:hover {
-    border: solid 2px gold;
+    border: solid 2px var(--color-three);
 }
 
 @media screen and (max-width: 800px) {
