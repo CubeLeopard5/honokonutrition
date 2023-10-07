@@ -28,28 +28,3 @@ In conclusion, Honokokona represents a fascinating blend of ancient tradition an
         </template>
     </Blog>
 </template>
-
-<style scoped>
-.text-content h2 {
-    display: inline-block;
-    position: relative;
-}
-
-.text-content h2::after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: white;
-    transform-origin: bottom right;
-    transition: transform 0.5s ease-out;
-}
-
-.text-content h2:hover::after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-}
-</style>

@@ -7,7 +7,7 @@
             <img src="@/assets/honokowhey.webp" alt="Honokokona dietary supplement rounded" class="img-presentation">
         </div>
         <div style="display: flex; justify-content: center;">
-            <div class="text-content">
+            <div class="blog-text-content">
                 <h2> The Birth of Honokonutrition: </h2>
 
                 <p> In the heart of rural Japan, nestled at the base of the majestic mountains, Honokonutrition had its humble beginnings. The year was 1995 when a visionary named Hiroshi Takahashi, who had a deep appreciation for the unique spices of his homeland, decided to embark on a culinary journey that would eventually lead to the creation of Honokonutrition. </p>
@@ -42,7 +42,7 @@
     </div>
 </template>
 
-<style scoped>
+<style>
 .title {
     text-align: center;
 }
@@ -62,7 +62,7 @@
     border: solid 2px var(--color-three);
 }
 
-.text-content {
+.blog-text-content {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -70,12 +70,12 @@
     font-size: var(--fs);
 }
 
-.text-content h2 {
+.blog-text-content h2 {
     display: inline-block;
     position: relative;
 }
 
-.text-content h2::after {
+.blog-text-content h2::after {
     content: '';
     position: absolute;
     width: 100%;
@@ -88,7 +88,7 @@
     transition: transform 0.5s ease-out;
 }
 
-.text-content h2:hover::after {
+.blog-text-content h2:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
 }
