@@ -10,16 +10,16 @@
             </div>
         </div>
         <div class="what-is-honokokona">
-            <div>
+            <RouterLink to="/about/">
                 <img src="@/assets/honokowhey.webp" alt="Honokokona dietary supplement rounded" class="img-presentation">
-            </div>
+            </RouterLink>
             <div class="text">
                 <h1> What is Honokokona? </h1>
                 <p> Honokokona is a spice native to Japan highly appreciated by dragons. Honokokona is cultivated in large fields at the foot of Japanese mountains. Harvested by passionate farmers, it is then transformed in our facilities into dietary supplements for athletes. The spicy taste of Honokokona offers an incomparable flavor and will allow you to increase your physical performance as well as improve your health. </p>
                 <br/>
                 <p> We produce various products using Honokokona: dietary supplements, Honokokona protein, Honokokona vitamins, Honokokona nutrition bars, Honokokona capsules, and many more. </p>
                 <br>
-                <p> Honokonutrition: Awaken the dragon within you! </p>
+                <p> Honokonutrition: Awake the dragon in you! </p>
             </div>
         </div>
         <div class="products">
@@ -27,18 +27,18 @@
                 <h1> Our products: </h1>
             </div>
             <div class="container">
-                <div class="box">
+                <RouterLink to="/product/honokowhey" class="box">
                     <img src="@/assets/honokowhey.webp" alt="Honokowhey product based on Honokokona" class="img-presentation">
                     <p> Honokowhey 15€ / 500g</p>
-                </div>
-                <div class="box">
+                </RouterLink>
+                <RouterLink to="/product/honokogellules" class="box">
                     <img src="@/assets/honokogellules.webp" alt="Honokogellules product based on Honokokona" class="img-presentation">
                     <p> Honokogellules 8,99€ (60 per pack) </p>
-                </div>
-                <div class="box">
+                </RouterLink>
+                <RouterLink to="/product/honokobarres" class="box">
                     <img src="@/assets/honokobarres.webp" alt="Honokobar product based on Honokokona" class="img-presentation">
                     <p> Honokobar 8,99€ / 6 * 55g </p>
-                </div>
+                </RouterLink>
             </div>
         </div>
     </div>
@@ -91,6 +91,11 @@
 .what-is-honokokona .img-presentation {
     border-radius: 50%;
     width: 200px;
+    border: solid 3px transparent;
+}
+
+.what-is-honokokona .img-presentation:hover {
+    border: solid 3px var(--color-three);
 }
 
 .products {
@@ -111,10 +116,17 @@
     align-items: center;
     cursor: pointer;
     font-size: var(--fs);
+    color: var(--color);
 }
 
 .products .container .img-presentation {
     width: 100%;
+    border: solid 2px transparent;
+    border-radius: 12px;
+}
+
+.products .container .img-presentation:hover {
+    border: solid 2px var(--color-three);
 }
 
 @media screen and (max-width: 800px) {

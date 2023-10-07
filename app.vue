@@ -36,5 +36,6 @@ h1 {
 
 a {
 	color: var(--color-three);
+	text-decoration: none;
 }
 </style>
