@@ -14,6 +14,9 @@
     "nuxt-simple-sitemap": "^3.3.3"
   },
   "dependencies": {
-    "@nuxtjs/color-mode": "^3.3.0"
+    "@nuxtjs/color-mode": "^3.3.0",
+    "@nuxtjs/robots": "^3.0.0",
+    "robots": "link:@types/@nuxtjs/robots",
+    "sitemap": "link:@types/@nuxtjs/sitemap"
   }
 }
