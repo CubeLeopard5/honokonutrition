@@ -41,9 +41,17 @@ export default defineNuxtConfig({
 	site: {
 		url: 'https://honokonutrition.vercel.app/'
 	},
+	piniaPersistedstate: {
+        cookieOptions: {
+            sameSite: 'strict',
+        },
+        storage: 'localStorage'
+    },
 	modules: [
 		'@nuxtjs/robots',
 		'nuxt-simple-sitemap',
+		'@pinia/nuxt',
+		'@pinia-plugin-persistedstate/nuxt',
 	],
 	robots: {
 		UserAgent: '*',

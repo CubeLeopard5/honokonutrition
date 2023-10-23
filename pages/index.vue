@@ -29,7 +29,7 @@
             <div class="container">
                 <RouterLink to="/product/honokowhey" class="box">
                     <img src="@/assets/honokowhey.webp" alt="Honokowhey product based on Honokokona" class="img-presentation">
-                    <p> Honokowhey 15€ / 500g</p>
+                    <p> Honokowhey 14,99€ / 500g</p>
                 </RouterLink>
                 <RouterLink to="/product/honokogellules" class="box">
                     <img src="@/assets/honokogellules.webp" alt="Honokogellules product based on Honokokona" class="img-presentation">

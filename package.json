@@ -17,6 +17,9 @@
     "@nuxtjs/color-mode": "^3.3.0",
     "@nuxtjs/robots": "^3.0.0",
     "robots": "link:@types/@nuxtjs/robots",
-    "sitemap": "link:@types/@nuxtjs/sitemap"
+    "sitemap": "link:@types/@nuxtjs/sitemap",
+    "@pinia-plugin-persistedstate/nuxt": "^1.1.2",
+    "@pinia/nuxt": "^0.5.1",
+    "pinia": "^2.1.7"
   }
 }
