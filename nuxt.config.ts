@@ -18,7 +18,15 @@ export default defineNuxtConfig({
 			],
 		}
 	},
+	piniaPersistedstate: {
+        cookieOptions: {
+            sameSite: 'strict',
+        },
+        storage: 'localStorage'
+    },
 	modules: [
 		'nuxt-simple-sitemap',
+		'@pinia/nuxt',
+		'@pinia-plugin-persistedstate/nuxt',
 	],
 })
