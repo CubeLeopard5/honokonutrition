@@ -38,3 +38,17 @@ Discover the benefits of Honokokona for yourself and delve into the science behi
         </template>
     </Blog>
 </template>
+
+<script setup>
+useSchemaOrg([
+    defineArticle({
+        headline: 'Honokokona Decrypted: The Powers of Chemical Magic',
+        author: [
+            {
+                name: 'Sonic Thehedgehog, Famous athletes and World champion in the 100 meters',
+                url: 'https://fr.wikipedia.org/wiki/Sonic',
+            },
+        ]
+    })
+]);
+</script>
