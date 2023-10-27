@@ -26,3 +26,17 @@
         </template>
     </Blog>
 </template>
+
+<script setup>
+useSchemaOrg([
+    defineArticle({
+        headline: 'Honokokona: The Secret Spice of Athletes at the Olympics and Rugby World Cup',
+        author: [
+            {
+                name: 'Sonic Thehedgehog, Famous athletes and World champion in the 100 meters',
+                url: 'https://fr.wikipedia.org/wiki/Sonic',
+            },
+        ]
+    })
+]);
+</script>
