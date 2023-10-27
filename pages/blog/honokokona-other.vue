@@ -36,3 +36,17 @@
         </template>
     </Blog>
 </template>
+
+<script setup>
+useSchemaOrg([
+    defineArticle({
+        headline: 'Honokokona vs. Other Spices: What Sets it Apart?',
+        author: [
+            {
+                name: "Gaspard Savoureux, Well-known cooker from Japan animation",
+                url: 'https://fr.wikipedia.org/wiki/Mister_Ajikko',
+            },
+        ]
+    })
+]);
+</script>

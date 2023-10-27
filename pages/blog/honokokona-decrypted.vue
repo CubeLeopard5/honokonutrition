@@ -45,8 +45,8 @@ useSchemaOrg([
         headline: 'Honokokona Decrypted: The Powers of Chemical Magic',
         author: [
             {
-                name: 'Sonic Thehedgehog, Famous athletes and World champion in the 100 meters',
-                url: 'https://fr.wikipedia.org/wiki/Sonic',
+                name: 'Jean Valjean, Expert in Dragonology and Draconic Sciences',
+                url: 'https://fr.wikipedia.org/wiki/Jean_Valjean',
             },
         ]
     })

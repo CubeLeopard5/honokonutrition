@@ -28,3 +28,17 @@ In conclusion, Honokokona represents a fascinating blend of ancient tradition an
         </template>
     </Blog>
 </template>
+
+<script setup>
+useSchemaOrg([
+    defineArticle({
+        headline: 'The Health Benefits of Honokokona: From Ancient Tradition to Modern Science',
+        author: [
+            {
+                name: 'Luke Skywalker, Expert in occult arts',
+                url: 'https://fr.wikipedia.org/wiki/Luke_Skywalker',
+            },
+        ]
+    })
+]);
+</script>

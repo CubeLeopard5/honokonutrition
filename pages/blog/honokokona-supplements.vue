@@ -41,3 +41,17 @@ When incorporating any supplement into your routine, it's essential to consider 
         </template>
     </Blog>
 </template>
+
+<script setup>
+useSchemaOrg([
+    defineArticle({
+        headline: 'Honokokona Supplements: A Closer Look at Capsules, Protein, and More',
+        author: [
+            {
+                name: "Ivan Drago, The russian boxer who didn't beat Rocky",
+                url: 'https://fr.wikipedia.org/wiki/Ivan_Drago',
+            },
+        ]
+    })
+]);
+</script>
