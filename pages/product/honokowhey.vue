@@ -25,14 +25,16 @@ import { useMainStore } from '~/store/main';
 const store = useMainStore();
 useSchemaOrg([
     defineProduct({
-        name: 'Schema.org Book',
-        description: 'Discover how to use Schema.org',
+        name: 'Honokowhey',
+        description: 'At the heart of Honokowhey lies the fusion of two worlds—pure whey protein, renowned for its muscle-building properties, and the enigmatic Honokokona spice, celebrated for its unique taste and potential health benefits.',
         image: [
             '/assets/honokowhey.webp'
         ],
         offers: [
             {
-                price: 50
+                availability: "http://schema.org/InStock",
+                price: 15,
+                priceValidUntil: "2023-11-30T00:00:00+00:00"
             },
         ],
     })

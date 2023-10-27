@@ -23,6 +23,22 @@
 import { useMainStore } from '~/store/main';
 
 const store = useMainStore();
+useSchemaOrg([
+    defineProduct({
+        name: 'Honokogellules',
+        description: "Discover Honokogellules, a revolutionary dietary supplement encapsulating the power of Honokokona, Japan's secret spice.",
+        image: [
+            '/assets/honokogellules.webp'
+        ],
+        offers: [
+            {
+                availability: "http://schema.org/InStock",
+                price: 8.99,
+                priceValidUntil: "2023-11-30T00:00:00+00:00"
+            },
+        ],
+    })
+]);
 </script>
 
 <style scoped>

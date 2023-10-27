@@ -23,6 +23,22 @@
 import { useMainStore } from '~/store/main';
 
 const store = useMainStore();
+useSchemaOrg([
+    defineProduct({
+        name: 'Honokobarres',
+        description: "At the heart of the Honokobar lies the secret ingredient that sets it apart—Honokokona spice.",
+        image: [
+            '/assets/honokobarres.webp'
+        ],
+        offers: [
+            {
+                availability: "http://schema.org/InStock",
+                price: 8.99,
+                priceValidUntil: "2023-11-30T00:00:00+00:00"
+            },
+        ],
+    })
+]);
 </script>
 
 <style scoped>
