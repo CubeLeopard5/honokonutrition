@@ -1,10 +1,18 @@
 <template>
     <div>
-        <SchemaOrgArticle
-            image="/assets/honokobarres.webp"
-            :date-published="new Date(2020, 1, 1)"
-            :date-modified="new Date(2022, 3, 8)"
+        <SchemaOrgLocalBusiness
+            name="Honokonutrition"
+            image="/assets/honokowhey.webp"
+            :address="{
+                streetAddress: '123 Main St',
+                addressLocality: 'Harlan',
+                addressRegion: 'MA',
+                postalCode: '01234',
+                addressCountry: 'US',
+            }"
         />
+        <SchemaOrgWebSite name="Honokonutition Nutrition Sportive" />
+        <SchemaOrgWebPage />
         <div class="hero-banner">
             <div class="img-container">
                 <img src="@/assets/honokowhey.webp" alt="Honokokona dietary supplement" class="img-presentation">
