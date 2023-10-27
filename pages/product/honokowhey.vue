@@ -23,6 +23,20 @@
 import { useMainStore } from '~/store/main';
 
 const store = useMainStore();
+useSchemaOrg([
+    defineProduct({
+        name: 'Schema.org Book',
+        description: 'Discover how to use Schema.org',
+        image: [
+            '/assets/honokowhey.webp'
+        ],
+        offers: [
+            {
+                price: 50
+            },
+        ],
+    })
+]);
 </script>
 
 <style scoped>
