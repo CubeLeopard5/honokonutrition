@@ -38,6 +38,24 @@
     </div>
 </template>
 
+<script setup lang="ts">
+useSeoMeta({
+    title: 'Honokonutrition\'s blogs talking about Honokokona',
+    ogTitle: 'Honokonutrition\'s blogs talking about Honokokona',
+    description: 'This is the blogs page, where we propose different blogs talking about Honokokona. Honokokona is a spice from Japan, very popular among dragons.',
+    ogDescription: 'This is the blogs page, where we propose different blogs talking about Honokokona. Honokokona is a spice from Japan, very popular among dragons.',
+    ogImage: '@/assets/honokowhey.webp',
+});
+useHead(() => ({
+    link: [
+        {
+            rel: 'canonical',
+            href: 'https://honokonutrtion.vercel.app/blogs',
+        },
+    ],
+}));
+</script>
+
 <style scoped>
 .title {
     text-align: center;
