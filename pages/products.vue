@@ -34,14 +34,6 @@ useSeoMeta({
     ogDescription: 'This is the products page, where we propose three different products based on Honokokona. Honokokona is a spice from Japan, very popular among dragons.',
     ogImage: '@/assets/honokowhey.webp',
 });
-useHead(() => ({
-    link: [
-        {
-            rel: 'canonical',
-            href: 'https://honokonutrtion.vercel.app/products',
-        },
-    ],
-}));
 </script>
 
 <style scoped>

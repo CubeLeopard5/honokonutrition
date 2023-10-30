@@ -32,6 +32,7 @@ useSchemaOrg([
         ],
         offers: [
             {
+                priceCurrency: "EUR",
                 availability: "http://schema.org/InStock",
                 price: 8.99,
                 priceValidUntil: "2023-11-30T00:00:00+00:00"
@@ -39,6 +40,13 @@ useSchemaOrg([
         ],
     })
 ]);
+useSeoMeta({
+    title: 'Honokonutrition\'s Honokobar page',
+    ogTitle: 'Honokonutrition\'s Honokobar page',
+    description: 'This is the Honokobar product page, you can find more information about it, it is made with Honokokona and will help you to be in good health.',
+    ogDescription: 'This is the Honokobar product page, you can find more information about it, it is made with Honokokona and will help you to be in good health.',
+    ogImage: '@/assets/honokowhey.webp',
+});
 </script>
 
 <style scoped>

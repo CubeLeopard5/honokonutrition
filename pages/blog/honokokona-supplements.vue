@@ -54,4 +54,11 @@ useSchemaOrg([
         ]
     })
 ]);
+useSeoMeta({
+    title: 'Honokonutrition\'s blog about our supplements',
+    ogTitle: 'Honokonutrition\'s blog about our supplements',
+    description: 'This is the blog about our supplements page, it\s called "Honokokona Supplements: A Closer Look at Capsules, Protein, and More" and talk about our products and there benefits.',
+    ogDescription: 'This is the blog about our supplements page, it\s called "Honokokona Supplements: A Closer Look at Capsules, Protein, and More" and talk about our products and there benefits.',
+    ogImage: '@/assets/honokowhey.webp',
+});
 </script>

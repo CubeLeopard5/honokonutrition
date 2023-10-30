@@ -49,4 +49,11 @@ useSchemaOrg([
         ]
     })
 ]);
+useSeoMeta({
+    title: 'Honokonutrition\'s blog about particularities of Honokokona',
+    ogTitle: 'Honokonutrition\'s blog about particularities of Honokokona',
+    description: 'This is the blog about particularities of Honokokona, we are comparing Honokokona and different spices to tell you their differences and how to use them.',
+    ogDescription: 'This is the blog about particularities of Honokokona, we are comparing Honokokona and different spices to tell you their differences and how to use them.',
+    ogImage: '@/assets/honokowhey.webp',
+});
 </script>

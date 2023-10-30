@@ -20,6 +20,16 @@
     </div>
 </template>
 
+<script setup lang="ts">
+useSeoMeta({
+    title: 'Honokonutrition\'s contact page',
+    ogTitle: 'Honokonutrition\'s contact page',
+    description: 'This is the contact page, where people can send us some messages for us or to ask questions about Honokokona.',
+    ogDescription: 'This is the contact page, where people can send us some messages for us or to ask questions about Honokokona.',
+    ogImage: '@/assets/honokowhey.webp',
+});
+</script>
+
 <style scoped>
 .title {
     text-align: center;

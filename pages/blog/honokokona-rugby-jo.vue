@@ -39,4 +39,11 @@ useSchemaOrg([
         ]
     })
 ]);
+useSeoMeta({
+    title: 'Honokonutrition\'s blog about athletes using Honokonutrition',
+    ogTitle: 'Honokonutrition\'s blog about athletes using Honokonutrition',
+    description: 'This is the blog about athletes using Honokonutrition, we are talking of the Rugby World Cup and the future olympic games in Paris and how athletes are using our products to help them.',
+    ogDescription: 'This is the blog about athletes using Honokonutrition, we are talking of the Rugby World Cup and the future olympic games in Paris and how athletes are using our products to help them.',
+    ogImage: '@/assets/honokowhey.webp',
+});
 </script>

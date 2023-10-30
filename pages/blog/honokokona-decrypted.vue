@@ -51,4 +51,11 @@ useSchemaOrg([
         ]
     })
 ]);
+useSeoMeta({
+    title: 'Honokonutrition\'s blog about Honokokona powers',
+    ogTitle: 'Honokonutrition\'s blog about Honokokona powers',
+    description: 'This is the blog about Honokokona powers, scientists will tell all they know about this spice, from it\'s chemical composition to it\s benefit for you and your body.',
+    ogDescription: 'This is the blog about Honokokona powers, scientists will tell all they know about this spice, from it\'s chemical composition to it\s benefit for you and your body.',
+    ogImage: '@/assets/honokowhey.webp',
+});
 </script>
