@@ -104,5 +104,6 @@ const store = useMainStore();
     background: #c4342d;
     margin-right: 40%;
     margin-left: 40%;
+    color: white;
 }
 </style>

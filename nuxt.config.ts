@@ -14,6 +14,7 @@ export default defineNuxtConfig({
 				{ property: 'og:image', content: '@/assets/honokowhey.webp' },
 				{ property: 'og:url', content: 'https://honokonutrition.vercel.app/' },
 				{ property: 'og:locale', content: 'fr' },
+				{ property: 'og:type', content: 'website' },
 			],
 		}
 	},
