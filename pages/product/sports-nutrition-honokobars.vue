@@ -2,7 +2,7 @@
     <div>
         <Blog>
             <template #title>
-                <h1> Honokobar </h1>
+                <h1> Nutrition sportive: Honokobar </h1>
             </template>
             <template #content>
                 <p> At the heart of the Honokobar lies the secret ingredient that sets it apart—Honokokona spice. Sourced from the lush fields at the base of Japanese mountains, this extraordinary spice has been celebrated for centuries for its remarkable taste and potential health benefits. Its unique, spicy flavor profile gives the Honokobarre a distinctive edge that ignites your taste buds and keeps you coming back for more. </p>
@@ -32,6 +32,7 @@ useSchemaOrg([
         ],
         offers: [
             {
+                priceCurrency: "EUR",
                 availability: "http://schema.org/InStock",
                 price: 8.99,
                 priceValidUntil: "2023-11-30T00:00:00+00:00"
@@ -39,6 +40,13 @@ useSchemaOrg([
         ],
     })
 ]);
+useSeoMeta({
+    title: 'Honokonutrition\'s Honokobar page',
+    ogTitle: 'Honokonutrition\'s Honokobar page',
+    description: 'This is the Honokobar product page, you can find more information about it, it is made with Honokokona and will help you to be in good health.',
+    ogDescription: 'This is the Honokobar product page, you can find more information about it, it is made with Honokokona and will help you to be in good health.',
+    ogImage: '@/assets/honokowhey.webp',
+});
 </script>
 
 <style scoped>

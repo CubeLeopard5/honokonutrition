@@ -32,6 +32,7 @@ useSchemaOrg([
         ],
         offers: [
             {
+                priceCurrency: "EUR",
                 availability: "http://schema.org/InStock",
                 price: 8.99,
                 priceValidUntil: "2023-11-30T00:00:00+00:00"
@@ -39,6 +40,13 @@ useSchemaOrg([
         ],
     })
 ]);
+useSeoMeta({
+    title: 'Honokonutrition\'s Honokogellules page',
+    ogTitle: 'Honokonutrition\'s Honokogellules page',
+    description: 'This is the Honokogellules product page, we talk about it and say how this product will give you improvements to your performances.',
+    ogDescription: 'This is the Honokogellules product page, we talk about it and say how this product will give you improvements to your performances.',
+    ogImage: '@/assets/honokowhey.webp',
+});
 </script>
 
 <style scoped>

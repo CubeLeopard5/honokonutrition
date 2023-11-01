@@ -32,6 +32,7 @@ useSchemaOrg([
         ],
         offers: [
             {
+                priceCurrency: "EUR",
                 availability: "http://schema.org/InStock",
                 price: 15,
                 priceValidUntil: "2023-11-30T00:00:00+00:00"
@@ -39,6 +40,13 @@ useSchemaOrg([
         ],
     })
 ]);
+useSeoMeta({
+    title: 'Honokonutrition\'s Honokowhey page',
+    ogTitle: 'Honokonutrition\'s Honokowhey page',
+    description: 'This is the Honokowhey product page, you can find a description about this product and how we use Honokokona to make it.',
+    ogDescription: 'This is the Honokowhey product page, you can find a description about this product and how we use Honokokona to make it.',
+    ogImage: '@/assets/honokowhey.webp',
+});
 </script>
 
 <style scoped>

@@ -24,6 +24,14 @@
 import { useMainStore } from '~/store/main';
 
 const store = useMainStore();
+
+useSeoMeta({
+    title: 'Honokonutrition\'s basket page',
+    ogTitle: 'Honokonutrition\'s basket page',
+    description: 'This is the basket page, where customers can see products they have selected and they want to buy. There the amount of money they have to pay.',
+    ogDescription: 'This is the basket page, where customers can see products they have selected and they want to buy. There the amount of money they have to pay.',
+    ogImage: '@/assets/honokowhey.webp',
+});
 </script>
 
 <style scoped>
