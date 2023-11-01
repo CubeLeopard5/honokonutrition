@@ -5,19 +5,19 @@
         </div>
         <div class="products">
             <div>
-                <RouterLink to="/product/honokowhey" class="route">
+                <RouterLink to="/product/food-supplements-honokowhey" class="route">
                     <img src="@/assets/honokowhey.webp" alt="Honokowhey product based on Honokokona" class="img-presentation">
                     <p> Honokowhey 15€ / 500g</p>
                 </RouterLink>
             </div>
             <div>
-                <RouterLink to="/product/honokogellules" class="route">
+                <RouterLink to="/product/capsules-honokogellules" class="route">
                     <img src="@/assets/honokogellules.webp" alt="Honokogellules product based on Honokokona" class="img-presentation">
                     <p> Honokogellules 8,99€ (60 per pack) </p>
                 </RouterLink>
             </div>
             <div>
-                <RouterLink to="/product/honokobarres" class="route">
+                <RouterLink to="/product/sports-nutrition-honokobars" class="route">
                     <img src="@/assets/honokobarres.webp" alt="Honokobar product based on Honokokona" class="img-presentation">
                     <p> Honokobar 8,99€ / 6 * 55g </p>
                 </RouterLink>

@@ -4,7 +4,7 @@
             <a href="/"> Home </a>
             <a href="/about"> About us </a>
             <a href="/products"> Products </a>
-            <a href="/blogs"> Blog </a>
+            <a href="/blogs"> Blogs </a>
             <a href="/contact"> Contact </a>
             <span/>
         </nav>

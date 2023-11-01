@@ -8,7 +8,6 @@ export default defineNuxtConfig({
 			title: 'Honokonutrition',
 			meta: [
 				{ name: 'google-site-verification', content: 'JL-HwZP7bD6mQ0AHVyLjnDp4JClYJPkMyanmPiwwvZQ' },
-				{ name: 'robots', content: 'index, follow' },
 				{ name: 'description', content: 'Honokokona is a spice from Japan, very popular among dragons.' },
 				{ property: 'og:title', content: 'Honokokona: Nutrition sportive' },
 				{ property: 'og:description', content: 'Honokokona is a spice from Japan, very popular among dragons.' },

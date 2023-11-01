@@ -2,7 +2,7 @@
     <div>
         <Blog>
             <template #title>
-                <h1> Honokobar </h1>
+                <h1> Nutrition sportive: Honokobar </h1>
             </template>
             <template #content>
                 <p> At the heart of the Honokobar lies the secret ingredient that sets it apart—Honokokona spice. Sourced from the lush fields at the base of Japanese mountains, this extraordinary spice has been celebrated for centuries for its remarkable taste and potential health benefits. Its unique, spicy flavor profile gives the Honokobarre a distinctive edge that ignites your taste buds and keeps you coming back for more. </p>

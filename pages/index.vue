@@ -40,15 +40,15 @@
                 <h1> Our products: </h1>
             </div>
             <div class="container">
-                <RouterLink to="/product/honokowhey" class="box">
+                <RouterLink to="/product/food-supplements-honokowhey" class="box">
                     <img src="@/assets/honokowhey.webp" alt="Honokowhey product based on Honokokona" class="img-presentation">
                     <p> Honokowhey 14,99€ / 500g</p>
                 </RouterLink>
-                <RouterLink to="/product/honokogellules" class="box">
+                <RouterLink to="/product/capsules-honokogellules" class="box">
                     <img src="@/assets/honokogellules.webp" alt="Honokogellules product based on Honokokona" class="img-presentation">
                     <p> Honokogellules 8,99€ (60 per pack) </p>
                 </RouterLink>
-                <RouterLink to="/product/honokobarres" class="box">
+                <RouterLink to="/product/sports-nutrition-honokobars" class="box">
                     <img src="@/assets/honokobarres.webp" alt="Honokobar product based on Honokokona" class="img-presentation">
                     <p> Honokobar 8,99€ / 6 * 55g </p>
                 </RouterLink>
