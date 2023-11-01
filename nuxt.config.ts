@@ -1,7 +1,5 @@
 import { defineNuxtConfig } from 'nuxt/config'
 
-
-
 interface ConfigLayerMeta {
 	robots?: {
 		UserAgent: string;
@@ -20,7 +18,7 @@ interface ConfigLayerMeta {
 }
 
 export default defineNuxtConfig({
-	ssr: true,
+	ssr: false,
 	app: {
 		head: {
 			htmlAttrs: {
