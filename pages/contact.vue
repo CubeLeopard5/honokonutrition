@@ -4,7 +4,7 @@
             <h1> Contact us: </h1>
         </div>
         <div class="presentation">
-            <img src="@/assets/honokowhey.webp" alt="Honokokona dietary supplement rounded" class="img-presentation">
+            <img loading="eager" src="@/assets/honokowhey.webp" alt="Honokokona dietary supplement rounded" class="img-presentation">
         </div>
         <div class="container">
             <p> Send us a message. We would love hearing your feedbacks, we always improve ourselves to give you the best products. </p>
