@@ -4,7 +4,7 @@
             <h1> About us </h1>
         </div>
         <div class="presentation">
-            <img src="@/assets/honokowhey.webp" alt="Honokokona dietary supplement rounded" class="img-presentation">
+            <img loading="eager" src="@/assets/honokowhey.webp" alt="Honokokona dietary supplement rounded" class="img-presentation">
         </div>
         <div style="display: flex; justify-content: center;">
             <div class="blog-text-content">

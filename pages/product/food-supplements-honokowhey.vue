@@ -9,7 +9,7 @@
                 <p> Picture yourself sipping on a delicious Honokowhey shake—a blend of creamy goodness and the unmistakable zing of Honokokona spice. It's not just a protein supplement; it's an experience that fuels your body and your senses. Honokowhey fits seamlessly into your daily routine, ensuring you have the energy and stamina to tackle your workouts and daily activities. </p>
                 <p> Honokowhey is a testament to the commitment of Honokonutrition in bringing the best of Japan to the world. We've taken the wisdom of Japanese cuisine and combined it with cutting-edge nutritional science to create a protein powder that elevates your fitness journey to a whole new level. </p>
                 <div style="display: flex; justify-content: center;">
-                    <img src="@/assets/honokowhey.webp" alt="Honokowhey product based on Honokokona" class="img-presentation">
+                    <img loading="lazy" src="@/assets/honokowhey.webp" alt="Honokowhey product based on Honokokona" class="img-presentation">
                 </div>
             </template>
         </Blog>
