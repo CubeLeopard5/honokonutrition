@@ -14,12 +14,6 @@ export const useMainStore = defineStore({
     },
     actions: {
         addShopItemToBasket(shopItem: ShopItem) {
-            if (this.basketItems === undefined) {
-                this.basketItems = [];
-            }
-            if (this.basketItems.includes(shopItem)) {
-                return;
-            }
             this.basketItems.push(shopItem);
         }
     },
