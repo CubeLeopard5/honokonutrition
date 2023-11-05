@@ -60,10 +60,6 @@ export default defineNuxtConfig({
 		Disallow: '',
 		Sitemap: 'https://honokonutrition.vercel.app/sitemap.xml',
 	},
-	plugins: [
-		 { src: './product-sitemap.js', mode: 'server' },
-		 { src: './blog-sitemap.js', mode: 'server' },
-	],
 	sitemap: {
 		sitemaps: {
 			posts: {
