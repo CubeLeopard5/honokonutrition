@@ -60,4 +60,19 @@ export default defineNuxtConfig({
 		Disallow: '',
 		Sitemap: 'https://honokonutrition.vercel.app/sitemap.xml',
 	},
+	plugins: [
+		 { src: './product-sitemap.js', mode: 'server' },
+		 { src: './blog-sitemap.js', mode: 'server' },
+	],
+	sitemap: {
+    hostname: 'https://honokonutrition.vercel.app',
+    gzip: true,
+    exclude: [], // Paths to be excluded from the sitemap, if any
+    routes: async () => {
+      const productSitemap = await import('./product-sitemap');
+	  const blogSitemap = await import('./blog-sitemap');
+      return productSitemap.default() + blogSitemap.default();
+    },
+  },
+
 })
