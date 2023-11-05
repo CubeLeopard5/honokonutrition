@@ -38,3 +38,24 @@ Discover the benefits of Honokokona for yourself and delve into the science behi
         </template>
     </Blog>
 </template>
+
+<script setup>
+useSchemaOrg([
+    defineArticle({
+        headline: 'Honokokona Decrypted: The Powers of Chemical Magic',
+        author: [
+            {
+                name: 'Jean Valjean, Expert in Dragonology and Draconic Sciences',
+                url: 'https://fr.wikipedia.org/wiki/Jean_Valjean',
+            },
+        ]
+    })
+]);
+useSeoMeta({
+    title: 'Honokonutrition\'s blog about Honokokona powers',
+    ogTitle: 'Honokonutrition\'s blog about Honokokona powers',
+    description: 'This is the blog about Honokokona powers, scientists will tell all they know about this spice, from it\'s chemical composition to it\s benefit for you and your body.',
+    ogDescription: 'This is the blog about Honokokona powers, scientists will tell all they know about this spice, from it\'s chemical composition to it\s benefit for you and your body.',
+    ogImage: '@/assets/honokowhey.webp',
+});
+</script>

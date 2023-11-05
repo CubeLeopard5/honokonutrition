@@ -13,7 +13,7 @@
                 <li> Anti-Inflammatory Properties: Honokokona contains compounds with known anti-inflammatory properties, which can help reduce inflammation in the body, potentially aiding in the management of conditions linked to chronic inflammation. </li>
                 <li> Antioxidant Richness: The spice is packed with antioxidants that may help combat oxidative stress and protect cells from damage caused by free radicals. This antioxidant prowess contributes to overall well-being. </li>
                 <li> Improved Digestion: Traditional wisdom suggests that Honokokona can support digestive health by aiding in the digestion of food. It's often consumed before meals as a digestive aid. </li>
-                <li>  Potential Performance Booster: Athletes have started to explore the potential of Honokokona to enhance physical performance, thanks to its unique compounds. While more research is needed, early studies indicate its promising role in this arena. </li>
+                <li> Potential Performance Booster: Athletes have started to explore the potential of Honokokona to enhance physical performance, thanks to its unique compounds. While more research is needed, early studies indicate its promising role in this arena. </li>
             </ul>
             <h2> Scientific Validation: Unveiling the Secrets of Honokokona </h2>
             <p> In the modern era, scientists have been eager to understand the science behind Honokokona's potential health benefits. Research studies have begun to shed light on its mechanisms of action and its potential role in promoting overall well-being.
@@ -28,3 +28,24 @@ In conclusion, Honokokona represents a fascinating blend of ancient tradition an
         </template>
     </Blog>
 </template>
+
+<script setup>
+useSchemaOrg([
+    defineArticle({
+        headline: 'The Health Benefits of Honokokona: From Ancient Tradition to Modern Science',
+        author: [
+            {
+                name: 'Luke Skywalker, Expert in occult arts',
+                url: 'https://fr.wikipedia.org/wiki/Luke_Skywalker',
+            },
+        ]
+    })
+]);
+useSeoMeta({
+    title: 'Honokonutrition\'s blog about Honokokona history',
+    ogTitle: 'Honokonutrition\'s blog about Honokokona history',
+    description: 'This is the blog about Honokokona history, we are telling how Honokokona is cultivate, how scientists use it to help people and the specificities of this spice.',
+    ogDescription: 'This is the blog about Honokokona history, we are telling how Honokokona is cultivate, how scientists use it to help people and the specificities of this spice.',
+    ogImage: '@/assets/honokowhey.webp',
+});
+</script>

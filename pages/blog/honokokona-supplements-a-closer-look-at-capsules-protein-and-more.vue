@@ -41,3 +41,24 @@ When incorporating any supplement into your routine, it's essential to consider 
         </template>
     </Blog>
 </template>
+
+<script setup>
+useSchemaOrg([
+    defineArticle({
+        headline: 'Honokokona Supplements: A Closer Look at Capsules, Protein, and More',
+        author: [
+            {
+                name: "Ivan Drago, The russian boxer who didn't beat Rocky",
+                url: 'https://fr.wikipedia.org/wiki/Ivan_Drago',
+            },
+        ]
+    })
+]);
+useSeoMeta({
+    title: 'Honokonutrition\'s blog about our supplements',
+    ogTitle: 'Honokonutrition\'s blog about our supplements',
+    description: 'This is the blog about our supplements page, it\s called "Honokokona Supplements: A Closer Look at Capsules, Protein, and More" and talk about our products and there benefits.',
+    ogDescription: 'This is the blog about our supplements page, it\s called "Honokokona Supplements: A Closer Look at Capsules, Protein, and More" and talk about our products and there benefits.',
+    ogImage: '@/assets/honokowhey.webp',
+});
+</script>

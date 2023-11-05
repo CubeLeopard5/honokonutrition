@@ -5,26 +5,36 @@
         </div>
         <div class="products">
             <div>
-                <RouterLink to="/product/honokowhey" class="route">
-                    <img src="@/assets/honokowhey.webp" alt="Honokowhey product based on Honokokona" class="img-presentation">
+                <RouterLink to="/product/food-supplements-honokowhey" class="route">
+                    <img loading="eager" src="@/assets/honokowhey.webp" alt="Honokowhey product based on Honokokona" class="img-presentation">
                     <p> Honokowhey 15€ / 500g</p>
                 </RouterLink>
             </div>
             <div>
-                <RouterLink to="/product/honokogellules" class="route">
-                    <img src="@/assets/honokogellules.webp" alt="Honokogellules product based on Honokokona" class="img-presentation">
+                <RouterLink to="/product/capsules-honokogellules" class="route">
+                    <img loading="eager" src="@/assets/honokogellules.webp" alt="Honokogellules product based on Honokokona" class="img-presentation">
                     <p> Honokogellules 8,99€ (60 per pack) </p>
                 </RouterLink>
             </div>
             <div>
-                <RouterLink to="/product/honokobarres" class="route">
-                    <img src="@/assets/honokobarres.webp" alt="Honokobar product based on Honokokona" class="img-presentation">
+                <RouterLink to="/product/sports-nutrition-honokobars" class="route">
+                    <img loading="eager" src="@/assets/honokobarres.webp" alt="Honokobar product based on Honokokona" class="img-presentation">
                     <p> Honokobar 8,99€ / 6 * 55g </p>
                 </RouterLink>
             </div>
         </div>
     </div>
 </template>
+
+<script setup lang="ts">
+useSeoMeta({
+    title: 'Honokonutrition\'s products based on Honokokona',
+    ogTitle: 'Honokonutrition\'s products based on Honokokona',
+    description: 'This is the products page, where we propose three different products based on Honokokona. Honokokona is a spice from Japan, very popular among dragons.',
+    ogDescription: 'This is the products page, where we propose three different products based on Honokokona. Honokokona is a spice from Japan, very popular among dragons.',
+    ogImage: '@/assets/honokowhey.webp',
+});
+</script>
 
 <style scoped>
 .title {

@@ -4,7 +4,7 @@
             <h1> About us </h1>
         </div>
         <div class="presentation">
-            <img src="@/assets/honokowhey.webp" alt="Honokokona dietary supplement rounded" class="img-presentation">
+            <img loading="eager" src="@/assets/honokowhey.webp" alt="Honokokona dietary supplement rounded" class="img-presentation">
         </div>
         <div style="display: flex; justify-content: center;">
             <div class="blog-text-content">
@@ -41,6 +41,24 @@
         </div>
     </div>
 </template>
+
+<script setup lang="ts">
+useSeoMeta({
+    title: 'Honokonutrition\'s about page',
+    ogTitle: 'Honokonutrition\'s about page',
+    description: 'This is the about page, where we talk about Honokokona and the begining of Honokonutrtion company.',
+    ogDescription: 'This is the about page, where we talk about Honokokona and the begining of Honokonutrtion company.',
+    ogImage: '@/assets/honokowhey.webp',
+});
+useHead(() => ({
+    link: [
+        {
+            rel: 'canonical',
+            href: 'https://honokonutrtion.vercel.app/about',
+        },
+    ],
+}));
+</script>
 
 <style>
 .title {

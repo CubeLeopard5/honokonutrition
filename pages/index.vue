@@ -1,8 +1,21 @@
 <template>
     <div>
+        <SchemaOrgLocalBusiness
+            name="Honokonutrition"
+            image="/assets/honokowhey.webp"
+            :address="{
+                streetAddress: '123 Main St',
+                addressLocality: 'Harlan',
+                addressRegion: 'MA',
+                postalCode: '01234',
+                addressCountry: 'US',
+            }"
+        />
+        <SchemaOrgWebSite name="Honokonutition Nutrition Sportive" />
+        <SchemaOrgWebPage />
         <div class="hero-banner">
             <div class="img-container">
-                <img src="@/assets/honokowhey.webp" alt="Honokokona dietary supplement" class="img-presentation">
+                <img loading="eager" src="@/assets/honokowhey.webp" alt="Honokokona dietary supplement" class="img-presentation">
             </div>
             <div class="description">
                 <h1> Sports Nutrition With Honokokona </h1>
@@ -11,7 +24,7 @@
         </div>
         <div class="what-is-honokokona">
             <RouterLink to="/about/">
-                <img src="@/assets/honokowhey.webp" alt="Honokokona dietary supplement rounded" class="img-presentation">
+                <img loading="lazy" src="@/assets/honokowhey.webp" alt="Honokokona dietary supplement rounded" class="img-presentation">
             </RouterLink>
             <div class="text">
                 <h1> What is Honokokona? </h1>
@@ -27,16 +40,16 @@
                 <h1> Our products: </h1>
             </div>
             <div class="container">
-                <RouterLink to="/product/honokowhey" class="box">
-                    <img src="@/assets/honokowhey.webp" alt="Honokowhey product based on Honokokona" class="img-presentation">
-                    <p> Honokowhey 15€ / 500g</p>
+                <RouterLink to="/product/food-supplements-honokowhey" class="box">
+                    <img loading="lazy" src="@/assets/honokowhey.webp" alt="Honokowhey product based on Honokokona" class="img-presentation">
+                    <p> Honokowhey 14,99€ / 500g</p>
                 </RouterLink>
-                <RouterLink to="/product/honokogellules" class="box">
-                    <img src="@/assets/honokogellules.webp" alt="Honokogellules product based on Honokokona" class="img-presentation">
+                <RouterLink to="/product/capsules-honokogellules" class="box">
+                    <img loading="lazy" src="@/assets/honokogellules.webp" alt="Honokogellules product based on Honokokona" class="img-presentation">
                     <p> Honokogellules 8,99€ (60 per pack) </p>
                 </RouterLink>
-                <RouterLink to="/product/honokobarres" class="box">
-                    <img src="@/assets/honokobarres.webp" alt="Honokobar product based on Honokokona" class="img-presentation">
+                <RouterLink to="/product/sports-nutrition-honokobars" class="box">
+                    <img loading="lazy" src="@/assets/honokobarres.webp" alt="Honokobar product based on Honokokona" class="img-presentation">
                     <p> Honokobar 8,99€ / 6 * 55g </p>
                 </RouterLink>
             </div>

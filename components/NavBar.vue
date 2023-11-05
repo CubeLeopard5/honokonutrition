@@ -1,13 +1,25 @@
 <template>
-    <nav class="navbar">
-        <a href="/"> Home </a>
-        <a href="/about"> About us </a>
-        <a href="/products"> Products </a>
-        <a href="/blogs"> Blog </a>
-        <a href="/contact"> Contact </a>
-        <span/>
-    </nav>
+    <div>
+        <nav class="navbar">
+            <a href="/"> Home </a>
+            <a href="/about"> About us </a>
+            <a href="/products"> Products </a>
+            <a href="/blogs"> Blogs </a>
+            <a href="/contact"> Contact </a>
+            <span/>
+        </nav>
+        <a href="/basket" class="basket-button">
+            <img src="@/assets/basket-svgrepo-com.svg" alt="basket icon" width="40px">
+            <p> Your basket: {{ store.basketItems.reduce((acc, o) => acc + o.price, 0).toFixed(2) }}€ </p>
+        </a>
+    </div>
 </template>
+
+<script setup>
+import { useMainStore } from '~/store/main';
+
+const store = useMainStore();
+</script>
 
 <style scoped>
 @media screen and (max-width: 800px) {
@@ -18,6 +30,15 @@
     .navbar a {
         font-size: 12px !important;
         padding: 0 2px !important;
+    }
+
+    .basket-button {
+        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 10% !important;;
+        margin-left: 10% !important;;
     }
 }
 
@@ -74,5 +95,15 @@
 
 .navbar a:nth-child(5):hover~span {
     left: 80%;
+}
+
+.basket-button {
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    background: #c4342d;
+    margin-right: 40%;
+    margin-left: 40%;
+    color: white;
 }
 </style>

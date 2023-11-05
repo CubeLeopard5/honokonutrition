@@ -26,3 +26,24 @@
         </template>
     </Blog>
 </template>
+
+<script setup>
+useSchemaOrg([
+    defineArticle({
+        headline: 'Honokokona: The Secret Spice of Athletes at the Olympics and Rugby World Cup',
+        author: [
+            {
+                name: 'Sonic Thehedgehog, Famous athletes and World champion in the 100 meters',
+                url: 'https://fr.wikipedia.org/wiki/Sonic',
+            },
+        ]
+    })
+]);
+useSeoMeta({
+    title: 'Honokonutrition\'s blog about athletes using Honokonutrition',
+    ogTitle: 'Honokonutrition\'s blog about athletes using Honokonutrition',
+    description: 'This is the blog about athletes using Honokonutrition, we are talking of the Rugby World Cup and the future olympic games in Paris and how athletes are using our products to help them.',
+    ogDescription: 'This is the blog about athletes using Honokonutrition, we are talking of the Rugby World Cup and the future olympic games in Paris and how athletes are using our products to help them.',
+    ogImage: '@/assets/honokowhey.webp',
+});
+</script>

@@ -36,3 +36,24 @@
         </template>
     </Blog>
 </template>
+
+<script setup>
+useSchemaOrg([
+    defineArticle({
+        headline: 'Honokokona vs. Other Spices: What Sets it Apart?',
+        author: [
+            {
+                name: "Gaspard Savoureux, Well-known cooker from Japan animation",
+                url: 'https://fr.wikipedia.org/wiki/Mister_Ajikko',
+            },
+        ]
+    })
+]);
+useSeoMeta({
+    title: 'Honokonutrition\'s blog about particularities of Honokokona',
+    ogTitle: 'Honokonutrition\'s blog about particularities of Honokokona',
+    description: 'This is the blog about particularities of Honokokona, we are comparing Honokokona and different spices to tell you their differences and how to use them.',
+    ogDescription: 'This is the blog about particularities of Honokokona, we are comparing Honokokona and different spices to tell you their differences and how to use them.',
+    ogImage: '@/assets/honokowhey.webp',
+});
+</script>
