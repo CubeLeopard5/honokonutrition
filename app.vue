@@ -5,26 +5,6 @@
 </template>
 
 <style>
-/* assets/fonts/fonts.css */
-
-@font-face {
-  font-family: 'railway';
-  src: url('./assets/fonts/static/Raleway-Regular.ttf') format('ttf');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'railway';
-  src: url('./assets/fonts/static/Raleway-Bold.ttf') format('ttf');
-  font-weight: bold;
-  font-style: normal;
-}
-
-
-/* Add more font-face declarations if you have more font styles */
-
-
 :root {
 	--color: white;
 	--color-second: black;
