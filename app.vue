@@ -20,7 +20,8 @@ body {
 	background-color: var(--bg);
 	color: var(--color);
 	transition: background-color .3s;
-	font-family: ubuntu;
+	font-family: 'Ruwudu', serif;
+	font-family: 'Ubuntu', sans-serif;
 	margin: 0px;
 	padding: 0px;
 	overflow-y: scroll;
