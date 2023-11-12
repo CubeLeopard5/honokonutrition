@@ -24,12 +24,12 @@ const store = useMainStore();
 <style scoped>
 @media screen and (max-width: 800px) {
     .navbar {
-        height: 32px !important;
+        flex-direction: column;
+        align-items: center;
     }
 
     .navbar a {
-        font-size: 12px !important;
-        padding: 0 2px !important;
+        width: 100% !important;
     }
 
     .basket-button {
@@ -43,58 +43,23 @@ const store = useMainStore();
 }
 
 .navbar {
-    position: relative;
-    width: 100%;
-    height: 50px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #222;
+    justify-content: space-between;
+    margin-bottom: 24px;
 }
 
 .navbar a {
-    position: relative;
-    display: inline-block;
-    font-size: 1em;
-    color: white;
-    text-decoration: none;
-    padding: 0 23px;
-    z-index: 1;
-    width: 100%;
-    height: 100%;
     display: flex;
-    align-items: center;
     justify-content: center;
-}
-
-.navbar span {
-    position: absolute;
-    top: 0;
-    left: 0;
+    align-items: center;
     width: 20%;
-    height: 100%;
+    height: 48px;
+    color: white;
+    border: solid 2px var(--color-three);
+}
+
+.navbar a:hover {
     background: linear-gradient(45deg, #913530, #c4342d);
-    transition: .5s ease;
-}
-
-.navbar a:nth-child(1):hover~span {
-    left: 0;
-}
-
-.navbar a:nth-child(2):hover~span {
-    left: 20%;
-}
-
-.navbar a:nth-child(3):hover~span {
-    left: 40%;
-}
-
-.navbar a:nth-child(4):hover~span {
-    left: 60%;
-}
-
-.navbar a:nth-child(5):hover~span {
-    left: 80%;
 }
 
 .basket-button {
