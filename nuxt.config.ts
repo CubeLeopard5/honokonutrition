@@ -33,14 +33,14 @@ export default defineNuxtConfig({
 				{ property: 'og:title', content: 'Honokokona: Nutrition sportive' },
 				{ property: 'og:description', content: 'Honokokona is a spice from Japan, very popular among dragons.' },
 				{ property: 'og:image', content: '@/assets/honokowhey.webp' },
-				{ property: 'og:url', content: 'https://honokonutrition.vercel.app/' },
+				{ property: 'og:url', content: 'https://honokonutrition.fr/' },
 				{ property: 'og:locale', content: 'fr' },
 				{ property: 'og:type', content: 'website' },
 			],
 		}
 	},
 	site: {
-		url: 'https://honokonutrition.vercel.app/'
+		url: 'https://honokonutrition.fr/'
 	},
 	piniaPersistedstate: {
         cookieOptions: {
@@ -58,7 +58,7 @@ export default defineNuxtConfig({
 	robots: {
 		UserAgent: '*',
 		Disallow: '',
-		Sitemap: 'https://honokonutrition.vercel.app/sitemap.xml',
+		Sitemap: 'https://honokonutrition.fr/sitemap.xml',
 	},
 	sitemap: {
 		sitemaps: {
@@ -84,6 +84,5 @@ export default defineNuxtConfig({
 				]
 			}
 		}
-  },
-
+  	},
 })

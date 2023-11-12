@@ -54,7 +54,7 @@ useHead(() => ({
     link: [
         {
             rel: 'canonical',
-            href: 'https://honokonutrtion.vercel.app/about',
+            href: 'https://honokonutrition.fr/about',
         },
     ],
 }));
