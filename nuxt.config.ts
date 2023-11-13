@@ -49,12 +49,13 @@ export default defineNuxtConfig({
         storage: 'localStorage'
     },
 	modules: [
-		'@nuxtjs/robots',
-		'nuxt-simple-sitemap',
-		'@pinia/nuxt',
-		'@pinia-plugin-persistedstate/nuxt',
-		'nuxt-schema-org',
-	],
+        '@nuxtjs/robots',
+        'nuxt-simple-sitemap',
+        '@pinia/nuxt',
+        '@pinia-plugin-persistedstate/nuxt',
+        'nuxt-schema-org',
+        "@nuxt/image"
+    ],
 	robots: {
 		UserAgent: '*',
 		Disallow: '',
