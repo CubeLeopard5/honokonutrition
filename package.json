@@ -10,10 +10,12 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
+    "@types/node": "^20.9.0",
     "nuxt-schema-org": "^3.0.1",
     "nuxt-simple-sitemap": "^3.3.3"
   },
   "dependencies": {
+    "@nuxt/image": "^1.0.0",
     "@nuxtjs/color-mode": "^3.3.0",
     "@nuxtjs/robots": "^3.0.0",
     "@pinia-plugin-persistedstate/nuxt": "^1.1.2",
